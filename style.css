@@ -27,7 +27,7 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 	background: none;
 	cursor: initial;
 }
-/* End of Resets */
+
 
 body {
 	background: var(--light);
@@ -232,3 +232,16 @@ input:checked ~ .bubble::after {
 	text-decoration: line-through;
 	color: var(--grey);
 }
+
+.due-date {
+    color: var(--grey); 
+    font-size: 0.8rem; 
+    margin-top: 4px; 
+    margin-bottom: 16px;
+}
+    .todo-item.overdue {
+        border-left: 4px solid var(--danger); 
+        background-color: #ffebeb; 
+    
+    }
+
